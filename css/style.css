@@ -2316,17 +2316,25 @@ header ul li {
 }
 @media (max-width:300px) {
     .box-2 img {
-        margin-left: 1.1rem;
+        margin-left: 1rem;
     }
     .box1, .box2, .box3 {
-        width: 16.5rem;
+        width: 15.5rem;
+    }
+    .box1, .box2 {
+        margin-left: -2rem;
+    }
+    .box3 {
+        margin-left: -4rem;
+    }
+    .images .img {
+        margin-left: 2.4rem;
     }
     .images img {
         margin-left: -1.1rem;
+        width: 15rem;
     }
-    .images img {
-        width: 16.5rem;
-    }
+    
     .team-img img {
         width: 16rem;
     }
@@ -2355,9 +2363,7 @@ header ul li {
     }
 }
 @media (max-width:290px) {
-    .images img {
-        width: 16rem;
-    }
+   
     .overlay {
         width: 89%;
         left:8.5%;
